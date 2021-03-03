@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Домашнее задание №1</string>
+    <string name="send">Отправить</string>
+    <string name="go_third_activity">Перейти на третий экран</string>
+    <string name="go_second_activity">Перейти на второй экран</string>
+    <string name="share">Поделиться</string>
+</resources>

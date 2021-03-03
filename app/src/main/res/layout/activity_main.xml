@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="?attr/buttoncolor"
+       android:textColor="?attr/textcolor"
+       android:text="@string/go_second_activity"
+       app:layout_constraintEnd_toStartOf="@+id/go_third"
+       android:id="@+id/go_sec"
+       tools:ignore="MissingConstraints">
+   </Button>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:layout_constraintStart_toEndOf="@+id/go_sec"
+       android:background="?attr/buttoncolor"
+       android:textColor="?attr/textcolor"
+       android:text="@string/go_third_activity"
+       android:id="@+id/go_third"
+       tools:ignore="MissingConstraints">
+   </Button>
+
+   <Button
+       android:id="@+id/send"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="?attr/buttoncolor"
+       android:textColor="?attr/textcolor"
+       android:text="@string/send"
+       android:textSize="50sp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       tools:ignore="MissingConstraints">
+
+   </Button>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/share"
+       android:text="@string/share"
+       android:textSize="40sp"
+       app:layout_constraintTop_toBottomOf="@id/send"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       >
+   </Button>
+
+   <Button
+       android:id="@+id/button_4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Button"
+       app:layout_constraintBottom_toTopOf="@+id/send"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/go_sec" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

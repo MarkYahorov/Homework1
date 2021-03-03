@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textcolor" type="color"/>
+    <attr name="buttoncolor" type="color"/>
+    <attr name="backgroundcolor" type="color"/>
+    <attr name="switchcolor" type="color"/>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="send">Send</string>
+    <string name="go_third_activity">Go Third Activity</string>
+    <string name="go_second_activity">Go Second Activity</string>
+    <string name="share">Share</string>
+
+</resources>
